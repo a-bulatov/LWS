@@ -17,7 +17,7 @@ bool mode, prev_mode;
 MegaServo rudder_servo, track_left, track_right, water_left, water_right;
 
 void setup() {
-  //Serial.begin(9600*2);
+  Serial.begin(9600*2);
   pinMode(RUDDER_IN, INPUT); // PWM input pin
   pinMode(THROTTLE_IN, INPUT);
   pinMode(MODE_IN, INPUT); 
